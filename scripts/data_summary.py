@@ -3,6 +3,7 @@
 A simple script to demonstrate basic data operations
 """
 import numpy as np
+import utils as util
 
 
 def main():
@@ -21,6 +22,7 @@ def main():
     print(f"Mean: ${mean_earnings:.2f}k")
     print(f"Median: ${median_earnings:.2f}k")
     print(f"Range: ${min_earnings:.2f}k - ${max_earnings:.2f}k")
+    util.hello("Tobias")
 
 
 if __name__ == "__main__":
